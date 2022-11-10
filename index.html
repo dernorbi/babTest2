@@ -43,7 +43,7 @@ const createScene = ()=>{
             
         const light = new BABYLON.HemisphericLight("light", new BABYLON.Vector3(1, 1, 0));
         
-        BABYLON.SceneLoader.ImportMeshAsync("SCENE", "", "scene.babylon");
+        BABYLON.SceneLoader.ImportMeshAsync("", "https://raw.githubusercontent.com/dernorbi/babTest2/main/", "scene.babylon");
         
         return scene;
         };
